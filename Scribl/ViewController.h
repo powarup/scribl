@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextViewDelegate>
 
+@property (nonatomic, strong) IBOutlet UITextView *textView;
+@property (nonatomic, strong) IBOutlet UIButton *sortButton;
+@property (nonatomic, strong) IBOutlet UIButton *helpButton;
+@property (nonatomic, strong) IBOutlet UIButton *completedButton;
+
+-(IBAction)sortPressed:(id)sender;
+-(IBAction)completePressed:(id)sender;
 
 @end
 

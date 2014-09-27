@@ -16,8 +16,24 @@
 		4CDFB80819D6AA6600B1F8A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB80619D6AA6600B1F8A8 /* LaunchScreen.xib */; };
 		4CDFB81419D6AA6600B1F8A8 /* ScriblTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDFB81319D6AA6600B1F8A8 /* ScriblTests.m */; };
 		4CDFB81F19D6AEF500B1F8A8 /* JPTaskFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDFB81E19D6AEF500B1F8A8 /* JPTaskFetcher.m */; };
-		4CDFB83119D6B86000B1F8A8 /* Archer-SembdItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82A19D6B61200B1F8A8 /* Archer-SembdItal-Pro.otf */; };
-		4CDFB83219D6B86000B1F8A8 /* Archer-ThinItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82D19D6B61200B1F8A8 /* Archer-ThinItal-Pro.otf */; };
+		4CDFB83519D6BEA900B1F8A8 /* JPTaskTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDFB83419D6BEA900B1F8A8 /* JPTaskTextStorage.m */; };
+		4CDFB9C719D6C5D800B1F8A8 /* Archer-Bold-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82019D6B61200B1F8A8 /* Archer-Bold-Pro.otf */; };
+		4CDFB9C819D6C5D800B1F8A8 /* Archer-BoldItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82119D6B61200B1F8A8 /* Archer-BoldItal-Pro.otf */; };
+		4CDFB9C919D6C5D800B1F8A8 /* Archer-Book-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82219D6B61200B1F8A8 /* Archer-Book-Pro.otf */; };
+		4CDFB9CA19D6C5D800B1F8A8 /* Archer-BookItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82319D6B61200B1F8A8 /* Archer-BookItal-Pro.otf */; };
+		4CDFB9CB19D6C5D800B1F8A8 /* Archer-Hairline-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82419D6B61200B1F8A8 /* Archer-Hairline-Pro.otf */; };
+		4CDFB9CC19D6C5D800B1F8A8 /* Archer-HairlineItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82519D6B61200B1F8A8 /* Archer-HairlineItal-Pro.otf */; };
+		4CDFB9CD19D6C5D800B1F8A8 /* Archer-Light-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82619D6B61200B1F8A8 /* Archer-Light-Pro.otf */; };
+		4CDFB9CE19D6C5D800B1F8A8 /* Archer-LightItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82719D6B61200B1F8A8 /* Archer-LightItal-Pro.otf */; };
+		4CDFB9CF19D6C5D800B1F8A8 /* Archer-Medium-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82819D6B61200B1F8A8 /* Archer-Medium-Pro.otf */; };
+		4CDFB9D019D6C5D800B1F8A8 /* Archer-MediumItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82919D6B61200B1F8A8 /* Archer-MediumItal-Pro.otf */; };
+		4CDFB9D119D6C5D800B1F8A8 /* Archer-SembdItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82A19D6B61200B1F8A8 /* Archer-SembdItal-Pro.otf */; };
+		4CDFB9D219D6C5D800B1F8A8 /* Archer-Semibold-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82B19D6B61200B1F8A8 /* Archer-Semibold-Pro.otf */; };
+		4CDFB9D319D6C5D800B1F8A8 /* Archer-Thin-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82C19D6B61200B1F8A8 /* Archer-Thin-Pro.otf */; };
+		4CDFB9D419D6C5D800B1F8A8 /* Archer-ThinItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82D19D6B61200B1F8A8 /* Archer-ThinItal-Pro.otf */; };
+		4CDFB9D519D6C5D800B1F8A8 /* Archer-XLight-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82E19D6B61200B1F8A8 /* Archer-XLight-Pro.otf */; };
+		4CDFB9D619D6C5D800B1F8A8 /* Archer-XLightItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82F19D6B61200B1F8A8 /* Archer-XLightItal-Pro.otf */; };
+		4CDFB9D919D6D68200B1F8A8 /* JPTextTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDFB9D819D6D68200B1F8A8 /* JPTextTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +78,10 @@
 		4CDFB82D19D6B61200B1F8A8 /* Archer-ThinItal-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-ThinItal-Pro.otf"; sourceTree = "<group>"; };
 		4CDFB82E19D6B61200B1F8A8 /* Archer-XLight-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-XLight-Pro.otf"; sourceTree = "<group>"; };
 		4CDFB82F19D6B61200B1F8A8 /* Archer-XLightItal-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-XLightItal-Pro.otf"; sourceTree = "<group>"; };
+		4CDFB83319D6BEA900B1F8A8 /* JPTaskTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPTaskTextStorage.h; sourceTree = "<group>"; };
+		4CDFB83419D6BEA900B1F8A8 /* JPTaskTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPTaskTextStorage.m; sourceTree = "<group>"; };
+		4CDFB9D719D6D68200B1F8A8 /* JPTextTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPTextTask.h; sourceTree = "<group>"; };
+		4CDFB9D819D6D68200B1F8A8 /* JPTextTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPTextTask.m; sourceTree = "<group>"; };
 		52632E79E6D940A3A44F4DA3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B801084718B34790A7EE8934 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +134,10 @@
 				4CDFB81E19D6AEF500B1F8A8 /* JPTaskFetcher.m */,
 				4CDFB7FE19D6AA6600B1F8A8 /* ViewController.h */,
 				4CDFB7FF19D6AA6600B1F8A8 /* ViewController.m */,
+				4CDFB9D719D6D68200B1F8A8 /* JPTextTask.h */,
+				4CDFB9D819D6D68200B1F8A8 /* JPTextTask.m */,
+				4CDFB83319D6BEA900B1F8A8 /* JPTaskTextStorage.h */,
+				4CDFB83419D6BEA900B1F8A8 /* JPTaskTextStorage.m */,
 				4CDFB80119D6AA6600B1F8A8 /* Main.storyboard */,
 				4CDFB80419D6AA6600B1F8A8 /* Images.xcassets */,
 				4CDFB80619D6AA6600B1F8A8 /* LaunchScreen.xib */,
@@ -262,8 +286,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CDFB83119D6B86000B1F8A8 /* Archer-SembdItal-Pro.otf in Resources */,
-				4CDFB83219D6B86000B1F8A8 /* Archer-ThinItal-Pro.otf in Resources */,
+				4CDFB9C719D6C5D800B1F8A8 /* Archer-Bold-Pro.otf in Resources */,
+				4CDFB9C819D6C5D800B1F8A8 /* Archer-BoldItal-Pro.otf in Resources */,
+				4CDFB9C919D6C5D800B1F8A8 /* Archer-Book-Pro.otf in Resources */,
+				4CDFB9CA19D6C5D800B1F8A8 /* Archer-BookItal-Pro.otf in Resources */,
+				4CDFB9CB19D6C5D800B1F8A8 /* Archer-Hairline-Pro.otf in Resources */,
+				4CDFB9CC19D6C5D800B1F8A8 /* Archer-HairlineItal-Pro.otf in Resources */,
+				4CDFB9CD19D6C5D800B1F8A8 /* Archer-Light-Pro.otf in Resources */,
+				4CDFB9CE19D6C5D800B1F8A8 /* Archer-LightItal-Pro.otf in Resources */,
+				4CDFB9CF19D6C5D800B1F8A8 /* Archer-Medium-Pro.otf in Resources */,
+				4CDFB9D019D6C5D800B1F8A8 /* Archer-MediumItal-Pro.otf in Resources */,
+				4CDFB9D119D6C5D800B1F8A8 /* Archer-SembdItal-Pro.otf in Resources */,
+				4CDFB9D219D6C5D800B1F8A8 /* Archer-Semibold-Pro.otf in Resources */,
+				4CDFB9D319D6C5D800B1F8A8 /* Archer-Thin-Pro.otf in Resources */,
+				4CDFB9D419D6C5D800B1F8A8 /* Archer-ThinItal-Pro.otf in Resources */,
+				4CDFB9D519D6C5D800B1F8A8 /* Archer-XLight-Pro.otf in Resources */,
+				4CDFB9D619D6C5D800B1F8A8 /* Archer-XLightItal-Pro.otf in Resources */,
 				4CDFB80319D6AA6600B1F8A8 /* Main.storyboard in Resources */,
 				4CDFB80819D6AA6600B1F8A8 /* LaunchScreen.xib in Resources */,
 				4CDFB80519D6AA6600B1F8A8 /* Images.xcassets in Resources */,
@@ -318,9 +356,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CDFB81F19D6AEF500B1F8A8 /* JPTaskFetcher.m in Sources */,
+				4CDFB83519D6BEA900B1F8A8 /* JPTaskTextStorage.m in Sources */,
 				4CDFB80019D6AA6600B1F8A8 /* ViewController.m in Sources */,
 				4CDFB7FD19D6AA6600B1F8A8 /* AppDelegate.m in Sources */,
 				4CDFB7FA19D6AA6600B1F8A8 /* main.m in Sources */,
+				4CDFB9D919D6D68200B1F8A8 /* JPTextTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

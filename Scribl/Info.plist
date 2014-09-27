@@ -4,8 +4,22 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Archer-SembdItal-Pro.otf</string>
+		<string>Archer-Bold-Pro.otf</string>
+		<string>Archer-BoldItal-Pro.otf</string>
+		<string>Archer-Book-Pro.otf</string>
+		<string>Archer-BookItal-Pro.otf</string>
+		<string>Archer-Hairline-Pro.otf</string>
+		<string>Archer-HairlineItal-Pro.otf</string>
+		<string>Archer-Light-Pro.otf</string>
+		<string>Archer-LightItal-Pro.otf</string>
+		<string>Archer-Medium-Pro.otf</string>
+		<string>Archer-MediumItal-Pro.otf</string>
+		<string>Archer-SembdItali-Pro.otf</string>
+		<string>Archer-Semibold-Pro.otf</string>
+		<string>Archer-Thin-Pro.otf</string>
 		<string>Archer-ThinItal-Pro.otf</string>
+		<string>Archer-XLight-Pro.otf</string>
+		<string>Archer-XLightItal-Pro.otf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>

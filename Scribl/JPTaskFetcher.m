@@ -71,12 +71,12 @@
       for (PKTTask *task in result) {
         NSLog(@"task fetched");
       }
+      self.tasks = result;
     } else {
-      NSLog(@"today fetch returned error: %@",error.description);
+      NSLog(@"task fetch returned error: %@",error.description);
     }
   }];
   
-
 }
 
 -(void)dealloc {
