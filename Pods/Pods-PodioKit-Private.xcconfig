@@ -1,5 +1,0 @@
-#include "Pods-PodioKit.xcconfig"
-GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/PodioKit" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/PodioKit"
-OTHER_LDFLAGS = -ObjC ${PODS_PODIOKIT_OTHER_LDFLAGS}
-PODS_ROOT = ${SRCROOT}

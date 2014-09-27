@@ -1,1 +1,0 @@
-PODS_PODIOKIT_OTHER_LDFLAGS = -framework UIKit
