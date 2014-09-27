@@ -10,6 +10,8 @@
 
 @interface JPTaskFetcher : NSObject
 
+@property (nonatomic, copy, readonly) NSArray *tasks;
+
 +(instancetype)defaultTaskFetcher;
 
 @end
