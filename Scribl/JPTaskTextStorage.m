@@ -16,6 +16,15 @@
 
 @implementation JPTaskTextStorage
 
+- (id)init
+{
+  self = [super init];
+  if (self) {
+    _backingString = [NSMutableAttributedString new];
+  }
+  return self;
+}
+
 - (NSString *)string {
   return self.backingString.string;
 }

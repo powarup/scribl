@@ -10,9 +10,6 @@
             <string>Archer-Bold</string>
             <string>Archer-Bold</string>
         </mutableArray>
-        <mutableArray key="Archer-Book-Pro.otf">
-            <string>Archer-Book</string>
-        </mutableArray>
         <mutableArray key="Archer-ThinItal-Pro.otf">
             <string>Archer-ThinItalic</string>
         </mutableArray>
@@ -30,16 +27,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3dp-0a-7Fo">
-                                <rect key="frame" x="16" y="80" width="568" height="480"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" name="Archer-Book" family="Archer" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydb-T4-TGB">
                                 <rect key="frame" x="16" y="40" width="200" height="20"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="HF2-nW-VKG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="QfH-2B-x7o"/>
                                     <constraint firstAttribute="width" constant="200" id="RqZ-Qu-5on"/>
                                     <constraint firstAttribute="width" constant="50" id="c8O-7v-vWH"/>
                                     <constraint firstAttribute="height" constant="50" id="iZG-la-DSy"/>
@@ -51,6 +43,7 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="QfH-2B-x7o"/>
                                         <exclude reference="c8O-7v-vWH"/>
                                         <exclude reference="iZG-la-DSy"/>
                                     </mask>
@@ -61,6 +54,8 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="31i-K9-rkJ"/>
                                     <constraint firstAttribute="width" constant="40" id="7W9-pI-OYt"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="800-Su-Net"/>
+                                    <constraint firstAttribute="height" constant="20" id="agI-UZ-JOk"/>
                                     <constraint firstAttribute="height" constant="50" id="p08-zI-uLv"/>
                                     <constraint firstAttribute="width" constant="40" id="rFh-9e-Qoj"/>
                                 </constraints>
@@ -73,20 +68,20 @@
                                     <mask key="constraints">
                                         <exclude reference="31i-K9-rkJ"/>
                                         <exclude reference="7W9-pI-OYt"/>
+                                        <exclude reference="800-Su-Net"/>
                                         <exclude reference="p08-zI-uLv"/>
                                     </mask>
                                 </variation>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scribl." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tr-na-UNJ">
-                                <rect key="frame" x="16" y="560" width="568" height="40"/>
-                                <fontDescription key="fontDescription" name="Archer-ThinItalic" family="Archer" pointSize="17"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BOY-go-5HK">
+                                <rect key="frame" x="16" y="80" width="568" height="480"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFA-Oe-JmF">
                                 <rect key="frame" x="200" y="40" width="200" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="5eG-aT-egV"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="RLB-tW-yzz"/>
                                     <constraint firstAttribute="width" constant="50" id="d5g-y9-YbT"/>
                                     <constraint firstAttribute="height" constant="50" id="v66-yP-LPh"/>
                                 </constraints>
@@ -97,6 +92,7 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="RLB-tW-yzz"/>
                                         <exclude reference="d5g-y9-YbT"/>
                                         <exclude reference="v66-yP-LPh"/>
                                     </mask>
@@ -105,41 +101,48 @@
                                     <action selector="completePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="eSV-hz-gla"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scribl." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tr-na-UNJ">
+                                <rect key="frame" x="16" y="560" width="568" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2rV-NH-Mm6"/>
+                                    <constraint firstAttribute="height" constant="40" id="41h-J6-yih"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Z8x-Yf-UZG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Archer-ThinItalic" family="Archer" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="41h-J6-yih"/>
+                                    </mask>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="3dp-0a-7Fo" secondAttribute="trailing" id="77X-2q-eXb"/>
-                            <constraint firstItem="3dp-0a-7Fo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="78L-5C-Knj"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="VWn-ao-Axa" secondAttribute="trailing" constant="10" id="9WR-0R-php"/>
-                            <constraint firstItem="CFA-Oe-JmF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="CTF-sO-YUr"/>
-                            <constraint firstItem="3dp-0a-7Fo" firstAttribute="top" secondItem="ydb-T4-TGB" secondAttribute="bottom" constant="20" id="G7X-T8-wKm"/>
-                            <constraint firstItem="3dp-0a-7Fo" firstAttribute="top" secondItem="VWn-ao-Axa" secondAttribute="bottom" constant="20" id="G9G-aZ-YkB"/>
-                            <constraint firstItem="ydb-T4-TGB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="HbU-4z-Mp3"/>
-                            <constraint firstItem="5tr-na-UNJ" firstAttribute="top" secondItem="3dp-0a-7Fo" secondAttribute="bottom" id="IZA-o1-NBu"/>
-                            <constraint firstItem="3dp-0a-7Fo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="La8-7q-cL7"/>
-                            <constraint firstItem="ydb-T4-TGB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Pji-hy-08z"/>
-                            <constraint firstItem="ydb-T4-TGB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Rcc-53-oXt"/>
-                            <constraint firstItem="3dp-0a-7Fo" firstAttribute="top" secondItem="CFA-Oe-JmF" secondAttribute="bottom" constant="20" id="Rvl-ng-BEv"/>
-                            <constraint firstAttribute="centerX" secondItem="CFA-Oe-JmF" secondAttribute="centerX" id="SHo-Ca-0VX"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ydb-T4-TGB" secondAttribute="trailing" id="TQo-V9-SEu"/>
-                            <constraint firstItem="5tr-na-UNJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XDZ-r8-1dB"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5tr-na-UNJ" secondAttribute="bottom" id="f4T-cD-yet"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="5tr-na-UNJ" secondAttribute="trailing" id="lFW-uv-VMw"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3dp-0a-7Fo" secondAttribute="bottom" constant="40" id="mWe-ho-RUg"/>
-                            <constraint firstItem="VWn-ao-Axa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="uuT-PG-gUu"/>
+                            <constraint firstItem="BOY-go-5HK" firstAttribute="top" secondItem="VWn-ao-Axa" secondAttribute="bottom" constant="20" id="8Iz-7U-Gto"/>
+                            <constraint firstItem="5tr-na-UNJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="I7d-2b-RKK"/>
+                            <constraint firstItem="BOY-go-5HK" firstAttribute="top" secondItem="ydb-T4-TGB" secondAttribute="bottom" constant="20" id="NDj-qj-tfS"/>
+                            <constraint firstItem="BOY-go-5HK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="R1H-ob-Nze"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5tr-na-UNJ" secondAttribute="bottom" id="Wlo-Pu-KaX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VWn-ao-Axa" secondAttribute="trailing" constant="10" id="X0K-Ga-XTz"/>
+                            <constraint firstItem="BOY-go-5HK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="XhK-Fw-Dcs"/>
+                            <constraint firstAttribute="centerX" secondItem="CFA-Oe-JmF" secondAttribute="centerX" id="Xin-Zk-0A4"/>
+                            <constraint firstItem="BOY-go-5HK" firstAttribute="top" secondItem="CFA-Oe-JmF" secondAttribute="bottom" constant="20" id="c3d-Hv-kkB"/>
+                            <constraint firstItem="CFA-Oe-JmF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="dhs-UD-vkQ"/>
+                            <constraint firstItem="5tr-na-UNJ" firstAttribute="top" secondItem="BOY-go-5HK" secondAttribute="bottom" id="hdw-8x-4ev"/>
+                            <constraint firstItem="ydb-T4-TGB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jZr-xy-JLr"/>
+                            <constraint firstItem="5tr-na-UNJ" firstAttribute="top" secondItem="BOY-go-5HK" secondAttribute="bottom" id="mFE-tr-ywc"/>
+                            <constraint firstItem="VWn-ao-Axa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="sSx-st-gd5"/>
+                            <constraint firstItem="5tr-na-UNJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="u1B-ni-42o"/>
+                            <constraint firstItem="ydb-T4-TGB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="v2B-zk-C85"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="HbU-4z-Mp3"/>
-                                <exclude reference="TQo-V9-SEu"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="completedButton" destination="CFA-Oe-JmF" id="dOs-Dw-NJI"/>
                         <outlet property="helpButton" destination="VWn-ao-Axa" id="B6f-47-2MK"/>
                         <outlet property="sortButton" destination="ydb-T4-TGB" id="mb2-27-bty"/>
-                        <outlet property="textView" destination="3dp-0a-7Fo" id="ecD-bt-QiC"/>
+                        <outlet property="textViewContainer" destination="BOY-go-5HK" id="URw-bF-Z9Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

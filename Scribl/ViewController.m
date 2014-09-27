@@ -14,6 +14,7 @@
 
 @property (nonatomic, strong) JPTaskTextStorage *textStorage;
 @property BOOL showingCompleted;
+@property (nonatomic, strong) UITextView *textView;
 
 @end
 
@@ -43,9 +44,12 @@
   [layoutManager addTextContainer:container];
   [self.textStorage addLayoutManager:layoutManager];
   
-  UITextView *smartTextView = [[UITextView alloc] initWithFrame:textViewRect textContainer:container];
+  UITextView *smartTextView = [[UITextView alloc] initWithFrame:CGRectMake(0, 0, self.textViewContainer.frame.size.width, self.textViewContainer.frame.size.height) textContainer:container];
+  smartTextView.font = [UIFont fontWithName:@"Archer-Bold" size:20];
+  smartTextView.backgroundColor = [UIColor clearColor];
   
   self.textView = smartTextView;
+  [self.textViewContainer addSubview:smartTextView];
   self.textView.delegate = self;
   
   
