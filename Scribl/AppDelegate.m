@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <PodioKit/PodioKit.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
+  
+  [PodioKit setupWithAPIKey:@"scribl" secret:@"P5AHcj0uZlP6n6NE7hveewBz7dtbt6KafK2j1mNqdRr8FazVc7TAw8btKHN7eIGN"];
+  [PodioKit automaticallyStoreTokenInKeychainForCurrentApp];
+  
   return YES;
 }
 

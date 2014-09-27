@@ -1,0 +1,1 @@
+../../PodioKit/PodioKit/Common/Models/PKTMoney.h

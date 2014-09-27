@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F30212F9-EBCE-4EE1-96B8-BB429EE47299</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Scribl</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BF132B0ADAF24DCE4FDBE632F5CEA359B8994FEC</key>
+		<string>github.com:powarup/scribl.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Scribl.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BF132B0ADAF24DCE4FDBE632F5CEA359B8994FEC</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:powarup/scribl.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BF132B0ADAF24DCE4FDBE632F5CEA359B8994FEC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BF132B0ADAF24DCE4FDBE632F5CEA359B8994FEC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Scribl</string>
+		</dict>
+	</array>
+</dict>
+</plist>
