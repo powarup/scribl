@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "JPTaskFetcher.h"
 #import "JPTaskTextStorage.h"
+#import "JPTextTask.h"
 
 @interface ViewController ()
 
@@ -22,17 +23,17 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  [JPTaskFetcher defaultTaskFetcher];
   
   //setup buttons
   
-  [self.sortButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
+  [self.syncButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
   [self.helpButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
   [self.completedButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
   
   //setup text view
   
   self.textStorage = [JPTaskTextStorage new];
+  [[JPTaskFetcher defaultTaskFetcher] setTextStorage:self.textStorage];
   
   CGRect textViewRect = self.textView.bounds;
   
@@ -74,6 +75,12 @@
     } completion:nil];
     self.showingCompleted = YES;
   }
+}
+
+-(void)syncPressed:(id)sender {
+  for (JPTextTask *task in self.textStorage.textTasks) {
+    [task sync];
+  } 
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <PodioKit/PodioKit.h>
 
 @interface JPTextTask : NSObject
+
+@property (nonatomic) BOOL willDelete;
+@property (nonatomic) NSRange range;
+
+-(instancetype)initWithTask:(PKTTask*)task range:(NSRange)range parentString:(NSString*)parentString;
+-(void)sync;
 
 @end

@@ -10,4 +10,8 @@
 
 @interface JPTaskTextStorage : NSTextStorage
 
+@property (nonatomic, copy) NSMutableArray *textTasks;
+
+- (void)setTasks:(NSArray*)tasksArray;
+
 @end

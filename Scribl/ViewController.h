@@ -11,11 +11,11 @@
 @interface ViewController : UIViewController <UITextViewDelegate>
 
 @property (nonatomic, strong) IBOutlet UIView *textViewContainer;
-@property (nonatomic, strong) IBOutlet UIButton *sortButton;
+@property (nonatomic, strong) IBOutlet UIButton *syncButton;
 @property (nonatomic, strong) IBOutlet UIButton *helpButton;
 @property (nonatomic, strong) IBOutlet UIButton *completedButton;
 
--(IBAction)sortPressed:(id)sender;
+-(IBAction)syncPressed:(id)sender;
 -(IBAction)completePressed:(id)sender;
 
 @end

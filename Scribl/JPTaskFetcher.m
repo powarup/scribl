@@ -68,10 +68,8 @@
   PKTAsyncTask *fetchedTasks = [PKTTask fetchWithParameters:todayParameters offset:0 limit:0];
   [fetchedTasks onComplete:^(id result, NSError *error) {
     if (!error) {
-      for (PKTTask *task in result) {
-        NSLog(@"task fetched");
-      }
       self.tasks = result;
+      [self.textStorage setTasks:self.tasks];
     } else {
       NSLog(@"task fetch returned error: %@",error.description);
     }

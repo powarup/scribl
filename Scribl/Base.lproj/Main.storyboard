@@ -28,16 +28,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydb-T4-TGB">
-                                <rect key="frame" x="16" y="40" width="200" height="20"/>
+                                <rect key="frame" x="16" y="40" width="50" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="HF2-nW-VKG"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="QfH-2B-x7o"/>
-                                    <constraint firstAttribute="width" constant="200" id="RqZ-Qu-5on"/>
+                                    <constraint firstAttribute="width" constant="50" id="RqZ-Qu-5on"/>
                                     <constraint firstAttribute="width" constant="50" id="c8O-7v-vWH"/>
                                     <constraint firstAttribute="height" constant="50" id="iZG-la-DSy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Archer-Bold" family="Archer" pointSize="18"/>
-                                <state key="normal" title="sort">
+                                <state key="normal" title="sync">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -48,6 +48,9 @@
                                         <exclude reference="iZG-la-DSy"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="syncPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="yHC-Aj-Can"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWn-ao-Axa">
                                 <rect key="frame" x="534" y="40" width="40" height="20"/>
@@ -141,7 +144,7 @@
                     <connections>
                         <outlet property="completedButton" destination="CFA-Oe-JmF" id="dOs-Dw-NJI"/>
                         <outlet property="helpButton" destination="VWn-ao-Axa" id="B6f-47-2MK"/>
-                        <outlet property="sortButton" destination="ydb-T4-TGB" id="mb2-27-bty"/>
+                        <outlet property="syncButton" destination="ydb-T4-TGB" id="Onp-eZ-Otb"/>
                         <outlet property="textViewContainer" destination="BOY-go-5HK" id="URw-bF-Z9Q"/>
                     </connections>
                 </viewController>

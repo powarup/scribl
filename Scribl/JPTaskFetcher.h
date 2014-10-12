@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JPTaskTextStorage.h"
 
 @interface JPTaskFetcher : NSObject
 
 @property (nonatomic, copy, readonly) NSArray *tasks;
-
+@property (nonatomic, weak) JPTaskTextStorage *textStorage;
 +(instancetype)defaultTaskFetcher;
 
 @end

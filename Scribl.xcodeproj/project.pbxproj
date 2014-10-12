@@ -34,6 +34,7 @@
 		4CDFB9D519D6C5D800B1F8A8 /* Archer-XLight-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82E19D6B61200B1F8A8 /* Archer-XLight-Pro.otf */; };
 		4CDFB9D619D6C5D800B1F8A8 /* Archer-XLightItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB82F19D6B61200B1F8A8 /* Archer-XLightItal-Pro.otf */; };
 		4CDFB9D919D6D68200B1F8A8 /* JPTextTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDFB9D819D6D68200B1F8A8 /* JPTextTask.m */; };
+		4CDFB9DC19D6EBE500B1F8A8 /* NSDate+JPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDFB9DB19D6EBE500B1F8A8 /* NSDate+JPAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		4CDFB83419D6BEA900B1F8A8 /* JPTaskTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPTaskTextStorage.m; sourceTree = "<group>"; };
 		4CDFB9D719D6D68200B1F8A8 /* JPTextTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPTextTask.h; sourceTree = "<group>"; };
 		4CDFB9D819D6D68200B1F8A8 /* JPTextTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPTextTask.m; sourceTree = "<group>"; };
+		4CDFB9DA19D6EBE500B1F8A8 /* NSDate+JPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JPAdditions.h"; sourceTree = "<group>"; };
+		4CDFB9DB19D6EBE500B1F8A8 /* NSDate+JPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JPAdditions.m"; sourceTree = "<group>"; };
 		52632E79E6D940A3A44F4DA3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B801084718B34790A7EE8934 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +141,8 @@
 				4CDFB9D819D6D68200B1F8A8 /* JPTextTask.m */,
 				4CDFB83319D6BEA900B1F8A8 /* JPTaskTextStorage.h */,
 				4CDFB83419D6BEA900B1F8A8 /* JPTaskTextStorage.m */,
+				4CDFB9DA19D6EBE500B1F8A8 /* NSDate+JPAdditions.h */,
+				4CDFB9DB19D6EBE500B1F8A8 /* NSDate+JPAdditions.m */,
 				4CDFB80119D6AA6600B1F8A8 /* Main.storyboard */,
 				4CDFB80419D6AA6600B1F8A8 /* Images.xcassets */,
 				4CDFB80619D6AA6600B1F8A8 /* LaunchScreen.xib */,
@@ -358,6 +363,7 @@
 				4CDFB81F19D6AEF500B1F8A8 /* JPTaskFetcher.m in Sources */,
 				4CDFB83519D6BEA900B1F8A8 /* JPTaskTextStorage.m in Sources */,
 				4CDFB80019D6AA6600B1F8A8 /* ViewController.m in Sources */,
+				4CDFB9DC19D6EBE500B1F8A8 /* NSDate+JPAdditions.m in Sources */,
 				4CDFB7FD19D6AA6600B1F8A8 /* AppDelegate.m in Sources */,
 				4CDFB7FA19D6AA6600B1F8A8 /* main.m in Sources */,
 				4CDFB9D919D6D68200B1F8A8 /* JPTextTask.m in Sources */,
@@ -485,6 +491,7 @@
 			baseConfigurationReference = B801084718B34790A7EE8934 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jovan Powar (7PPS993MGE)";
 				INFOPLIST_FILE = Scribl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +503,7 @@
 			baseConfigurationReference = B801084718B34790A7EE8934 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jovan Powar (7PPS993MGE)";
 				INFOPLIST_FILE = Scribl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
